@@ -10,7 +10,7 @@
       [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 
   //Add in your API key here:
-  [GMSServices provideAPIKey:@"YOUR_API_KEY"];
+    [GMSServices provideAPIKey:@"AIzaSyAjgTC0L1x9PflgcQbeXrbufA8k3ILM0bc"];
 
   self.viewController = [[HMViewController alloc] init];
   self.window.rootViewController = self.viewController;
